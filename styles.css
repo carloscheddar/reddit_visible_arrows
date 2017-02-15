@@ -1,0 +1,4 @@
+body .content .midcol > .arrow {
+  display: block !important;
+  visibility: visible !important;
+}
