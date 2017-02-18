@@ -1,4 +1,15 @@
-body .content .midcol > .arrow {
+body .content .midcol > .arrow,
+body .content .midcol > .arrow:hover,
+body .content .midcol > .arrow:active {
   display: block !important;
   visibility: visible !important;
+  text-indent: 0 !important;
+  clip: initial !important;
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  min-width: 15px !important;
+  min-height: 14px !important;
+  overflow: initial !important;
+  /* http://webaim.org/techniques/css/invisiblecontent/ */
 }
