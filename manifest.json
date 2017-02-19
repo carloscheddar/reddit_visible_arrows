@@ -2,8 +2,8 @@
   "manifest_version": 2,
 
   "name": "Reddit visible arrows",
-  "description": "Always show reddit arrows regardless of subreddit style",
-  "version": "0.1.0",
+  "description": "Show reddit arrows regardless of subreddit style",
+  "version": "0.2.0",
 
   "content_scripts": [{
     "css": ["styles.css"],
