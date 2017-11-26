@@ -12,5 +12,11 @@ body .commentarea .midcol {
   min-width: 15px !important;
   min-height: 14px !important;
   overflow: initial !important;
+  pointer-events: initial !important;
   /* http://webaim.org/techniques/css/invisiblecontent/ */
+}
+
+/* Hides hover effect when not subscribed to /r/politics */
+body .content .midcol:before {
+  display: none !important;
 }
