@@ -1,6 +1,7 @@
 body .content .midcol > .arrow,
 body .content .midcol > .arrow:hover,
-body .content .midcol > .arrow:active {
+body .content .midcol > .arrow:active,
+body .commentarea .midcol {
   display: block !important;
   visibility: visible !important;
   text-indent: 0 !important;
